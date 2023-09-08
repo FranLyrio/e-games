@@ -1,7 +1,8 @@
 import type { Preview, StoryFn } from '@storybook/react'
-import { Global, ThemeProvider, useTheme } from '@emotion/react'
+import { Global, ThemeProvider } from '@emotion/react'
 
 import { GlobalStyle } from '@styles/global'
+import theme from '@styles/theme'
 
 const preview: Preview = {
   parameters: {
@@ -15,16 +16,12 @@ const preview: Preview = {
   },
 }
 
-const withTheme = (Story: StoryFn) => {
-  const theme = useTheme()
-
-  return (
-    <ThemeProvider theme={theme}>
-      <Global styles={GlobalStyle} />
-      <Story />
-    </ThemeProvider>
-  )
-}
+const withTheme = (Story: StoryFn) => (
+  <ThemeProvider theme={theme}>
+    <Global styles={GlobalStyle} />
+    <Story />
+  </ThemeProvider>
+)
 
 export const decorators = [withTheme]
 
