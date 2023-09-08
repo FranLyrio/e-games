@@ -20,6 +20,6 @@
       "@styles/*": ["src/styles/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".jest/**.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".jest/**.ts", ".storybook/*.tsx"],
   "exclude": ["node_modules"]
 }
