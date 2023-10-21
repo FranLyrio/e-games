@@ -2,11 +2,10 @@ export default function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      version="1.1"
-      xmlSpace="preserve"
-      width="647.16699"
-      height="750.97699"
       viewBox="0 0 647.16699 750.97701"
+      fill="none"
+      role="img"
+      aria-label="Logo da Epic Games"
     >
       <defs>
         <clipPath clipPathUnits="userSpaceOnUse">
