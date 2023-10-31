@@ -16,32 +16,32 @@ export default {
   },
   font: {
     body1: {
-      family: "'Inter', sans-serif",
+      fontFamily: "'Inter', sans-serif",
       fontSize: '0.5625rem',
       fontWeight: '400',
     },
     body2: {
-      family: "'Inter', sans-serif",
+      fontFamily: "'Inter', sans-serif",
       fontSize: '0.6875rem',
       fontWeight: '400',
     },
     body3: {
-      family: "'Inter', sans-serif",
+      fontFamily: "'Inter', sans-serif",
       fontSize: '0.75rem',
       fontWeight: '400',
     },
     body4: {
-      family: "'Inter', sans-serif",
+      fontFamily: "'Inter', sans-serif",
       fontSize: '0.875rem',
       fontWeight: '400',
     },
     body5: {
-      family: "'Inter', sans-serif",
+      fontFamily: "'Inter', sans-serif",
       fontSize: '1rem',
       fontWeight: '400',
     },
     heading: {
-      family: "'Inter', sans-serif",
+      fontFamily: "'Inter', sans-serif",
       fontSize: '1.125rem',
     },
   },
