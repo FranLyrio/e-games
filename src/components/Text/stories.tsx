@@ -10,8 +10,10 @@ const meta: Meta<typeof Text> = {
 export default meta
 type Story = StoryObj<typeof Text>
 
-export const Primary: Story = {
-  render: () => <Text>Um texto para testar o text.</Text>,
+export const Main: Story = {
+  args: {
+    children: 'Amazing text!',
+    variant: 'body5',
+    color: 'main',
+  },
 }
-
-// fazer Text e Heading
