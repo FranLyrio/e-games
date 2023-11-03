@@ -45,4 +45,4 @@ export default {
       fontSize: '1.125rem',
     },
   },
-}
+} as const
