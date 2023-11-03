@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
+import { Theme } from '@emotion/react'
 
 import { TextProps } from '.'
-import { Theme } from '@emotion/react'
 
 type WrapperProps = Omit<TextProps, 'children'>
 
