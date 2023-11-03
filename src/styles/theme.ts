@@ -6,7 +6,7 @@ export default {
       highlight: '#0078f2',
     },
     text: {
-      main: '#f5f5f5f5',
+      main: '#f5f5f5',
       secondary: '#f5f5f599',
     },
     icon: {
