@@ -40,9 +40,13 @@ export default {
       fontSize: '1rem',
       fontWeight: '400',
     },
-    heading: {
+    heading1: {
       fontFamily: "'Inter', sans-serif",
       fontSize: '1.125rem',
+    },
+    heading2: {
+      fontFamily: "'Inter', sans-serif",
+      fontSize: '1.375rem',
     },
   },
 } as const
